@@ -1,0 +1,7 @@
+# TODO (3a): Kubernetes Deployment manifest
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata: name: simplewebapp-deploy
+# spec: replicas: 1, selector/matchLabels: app: simplewebapp
+# template: labels app: simplewebapp
+# containers: name: simplewebapp, image: simplewebapp:latest, containerPort: 8080

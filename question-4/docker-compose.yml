@@ -1,0 +1,10 @@
+# TODO (4a): Docker Compose file
+# version: "3.8"
+# services:
+#   app:
+#     build: { context: .., dockerfile: question-2/Dockerfile }
+#     ports: ["8080:8080"]
+#     depends_on: [helper]
+#   helper:
+#     image: redis:7-alpine
+#     restart: unless-stopped
